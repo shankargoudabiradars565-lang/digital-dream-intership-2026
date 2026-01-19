@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #0b0b0b;
+    color: #f5c400;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    border-bottom: 2px solid #f5c400;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header span {
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #151515;
+    border: 1px solid #f5c400;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.stat-box p {
+    font-size: 24px;
+    margin: 10px 0 0;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Form */
+.employee-form {
+    width: 30%;
+    background: #151515;
+    border: 1px solid #f5c400;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.employee-form h2 {
+    margin-bottom: 15px;
+}
+
+.employee-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #000;
+    color: #f5c400;
+    border: 1px solid #f5c400;
+    border-radius: 4px;
+}
+
+.employee-form button {
+    width: 100%;
+    padding: 12px;
+    background: #f5c400;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.employee-form button:hover {
+    background: #ffcc00;
+}
+
+/* Table */
+.employee-table {
+    width: 70%;
+    background: #151515;
+    border: 1px solid #f5c400;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    background: #0b0b0b;
+}
+
+/* Buttons */
+.action-btn {
+    padding: 5px 8px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-btn {
+    background: #f5c400;
+    color: #000;
+}
+
+.delete-btn {
+    background: crimson;
+    color: #fff;
+}
